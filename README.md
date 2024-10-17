@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Traveling Application - Front-End
 
-## Getting Started
+Welcome to the **Traveling Application**! This project is a front-end implementation of a traveling platform, serving as a foundation for building larger, more complex applications. 
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Traveling Application - Front-End](#traveling-application---front-end)
+  - [Table of Contents](#table-of-contents)
+  - [Technologies](#technologies)
+  - [Interfaces](#interfaces)
+    - [Home Interface](#home-interface)
+    - [Full Screen Shot of the Project](#full-screen-shot-of-the-project)
+  - [Installation](#installation)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application is built using the following technologies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **React**: A flexible JavaScript library for building user interfaces, used to create reusable components.
+- **TypeScript**: A superset of JavaScript that adds static typing, improving code quality and maintainability.
+- **Tailwind CSS**: A utility-first CSS framework for styling, enabling rapid design without leaving the HTML.
 
-## Learn More
+The full list of dependencies can be found in the `package.json` file.
 
-To learn more about Next.js, take a look at the following resources:
+![Project Screenshot](image.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Interfaces
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Home Interface
 
-## Deploy on Vercel
+The Home interface provides an overview of the application and allows users to navigate easily through different sections.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Home Interface Screenshot](image-1.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Full Screen Shot of the Project
+
+Here’s a complete view of the application interface, showcasing its overall design and layout.
+
+![Full Project Screenshot](image-2.png)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Wahya1/travelling-app.git
+   cd traveling-app
